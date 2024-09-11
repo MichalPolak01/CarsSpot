@@ -94,10 +94,6 @@
     background-color: #4376f8;
   }
 
-  .text-primary-blue {
-    color:#0147ff;
-  }
-
   .secondary-button {
     background-color: #fff;
     border: 1px #0147ff solid;
@@ -116,3 +112,10 @@
     color: #4376f8;
   }
 
+  .text-primary-blue {
+    color:#0147ff;
+  }
+
+  .bg-primary-blue {
+    background-color:#0147ff;
+  }
