@@ -41,3 +41,22 @@ function goToSlide(index) {
 }
 
 showSlide(currentIndex);
+
+
+/* Cars type */
+function typeOfCars(index) {
+    const types = document.querySelectorAll('.carType');
+
+    const inactiveClasses = 'carType roboto-bold underline text-primary-blue';
+    const activeClasses = 'carType roboto-medium';
+    const commonClasses = 'sm:text-base text-sm';
+
+    types.forEach(type => {
+        type.classList.remove(...inactiveClasses.split(' '));
+        type.classList.add(...activeClasses.split(' '));
+    });
+
+    const activeType = document.getElementById(`carType${index}`);
+    activeType.classList.remove(...activeClasses.split(' '));
+    activeType.classList.add(...inactiveClasses.split(' '));
+}
