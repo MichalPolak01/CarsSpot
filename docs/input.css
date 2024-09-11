@@ -81,14 +81,38 @@
   .primary-button {
     background-color: #0147ff;
     border: none;
-    color: white;
+    color: #fff;
     padding: 0.75rem 2rem;
     text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 0.9rem;
+    transition: 0.5s;
+  }
+
+  .primary-button:hover {
+    background-color: #4376f8;
   }
 
   .text-primary-blue {
     color:#0147ff;
   }
+
+  .secondary-button {
+    background-color: #fff;
+    border: 1px #0147ff solid;
+    color: #0147ff;
+    padding: 0.75rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 0.9rem;
+    transition: 0.5s;
+  }
+
+  .secondary-button:hover {
+    background-color: #fafafa;
+    border: 1px #4376f8 solid;
+    color: #4376f8;
+  }
+
